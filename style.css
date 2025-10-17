@@ -1,6 +1,44 @@
 /* This is a CSS comment*/
 
+/* CSS RESET */
+*{
+    margin: 0;
+    padding: 0;
+}
+
 /* Targets the body tag <body> */
 body{
-    background-color: #6bb6f0;
+    background-color: #9fd6f4;
+    font-family: Lobster, Arial, Helvetica, sans-serif;
+    line-height: 1.5; /* 1.5 Line Spacing */
+    color: #1b007d;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    background-color: #faebd7;
+    font-family: Delius, sans-serif;
+    margin-bottom: 0.5em; /*em - scales on font size */
+    /* if the font size is 40px, 0.5em is 20px */
+}
+
+h1 {
+background-color: #faebd7;
+border-color: #1b007d;
+border-style: dashed;
+}
+
+h2, h4, h6 {
+background-color: #faebd7;
+border-color: #004cff;
+border-style: dotted;
+border-radius: 10px;
+}
+
+nav {
+    padding: 1em;
+    font-weight: bold;
+}
+
+nav a{ /* targets all links in the nav */
+    color: #443b64;
 }
