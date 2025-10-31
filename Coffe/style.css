@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* CSS Variables */
+:root {
+    --primary:#2f4aa4;
+    --bg-dark: #01004d;
+    --bg-light:#ffffff;
+    --bg-muted: #f4ecda;
+}
+
+/* CSS Reset - Tragets Everything */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: var(--fontnormal);
+    line-height: 1.5;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--fontnormal);
+    margin-bottom: 0.5rem;
+}
+
+p {
+    margin-bottom: 0.5rem;
+}
+
+
+/***********COLOUR**********/
+.bg-primary {background-color:var(--primary);}
+.bg-dark {background-color: var(--bg-dark)}
+.bg-light {background-color: var(--bg-light)}
+.bg-muted {background-color: var(--bg-muted)}
+
+.text-primary {color:#4b2d1e}
+.text-dark {color: #362d2a}
+.text-light {color:#ffffff}
+.text-muted {color: #f8f6f5}
+/**********SWATCHES*************/
+.swatches {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.swatch .swatch-value {
+    border-radius: 100%;
+    aspect-ratio: 1 / 1;
+    width: 3rem; /* Root font size: 16px */
+    
+    box-shadow: 0 0.1rem 0.2rem 0.1rem rgba(45,40,35,0.2)
+}
+
+.swatch .swatch-name {
+    text-align: center;
+}
